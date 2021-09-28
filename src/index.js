@@ -4,5 +4,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-ReactDOM.render(<h1>Hello World!</h1>,
+ReactDOM.render(
+<>
+<h1>Web Series!</h1>
+<p>My Favourite</p>
+<ul>
+  <li>Money Heist</li>
+  <li>Lucifer</li>
+  <li>Dark</li>
+  <li>Panchayat</li>
+  <li>Aspirants</li>
+</ul>
+</>
+  ,
   document.getElementById("root"));
