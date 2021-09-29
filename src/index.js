@@ -3,7 +3,8 @@
 //modern javascript me import likh ke ho jata hai
 import React from 'react';
 import ReactDOM from 'react-dom';
-var t="Ritik";
+import './index.css'
+var t="Ritik Raj";
 const currDate = new Date().toLocaleDateString();
 const currTime = new Date().toLocaleTimeString();
 const img1= "https://picsum.photos/200/300";
@@ -16,11 +17,14 @@ ReactDOM.render(
 <h1>{`Hello, My Name is ${t}`}</h1>
 <p>{`today Date is = ${currDate}`}</p>
 <p>{`today time is = ${currTime}`}</p>
-<h2 contentEditable="true">My name is {t} Raj</h2>\
+<h2 className="heading">My name is {t}</h2>
+
+<div className="div_img">
 <img src={img1} alt="randomimg"/>
 <img src={img2} alt="randomimg"/>
 <a href={links} target="_ritik">
   <img src={img3} alt="randomimg"/>
 </a>
+</div>
 </>,
   document.getElementById("root"));
